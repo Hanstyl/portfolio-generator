@@ -1,24 +1,5 @@
-const profileDataArgs = process.argv.slice(2, process.argv.length);
+// const profileDataArgs = process.argv.slice(2, process.argv.length); ----directions said to comment or delete previous lesson code.
 
 
-
-
-
-
-
-
-
-const printProfileData = profileDataArr => {
-    // This...
-    for (let i = 0; i < profileDataArr.length; i += 1) {
-        console.log(profileDataArr[i]);
-    }
-
-    console.log('================');
-
-    // Is the same as
-    profileDataArr.forEach(profileItem => console.log(profileItem));
-    
-};
-
-printProfileData(profileDataArgs);
+const generatePage = () => 'Name: Nathan, Github: nathanhub';
+console.log(generatePage());
